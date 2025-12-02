@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+body{
+    background-color: #FDEED8;
+}
+
+h1{
+    text-align: center;
+    color: #1f8825;
+    font-family: "Fredericka The Great", serif;
+}
+.card-title{
+    text-align: center;
+    color: #1f8825;
+    font-variant: small-caps;
+
+}
+.card{
+    border: solid #1f8825 2px;
+}
+.card:hover{
+    box-shadow: 0px 5px;
+}
+.banner{
+    background-image: url('../img/banner.jpg');
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+}
+.navbar, footer{
+    background-color: #1f8825;
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
